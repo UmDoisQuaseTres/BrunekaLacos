@@ -6,7 +6,7 @@ export default function CollectionSection() {
   return (
     <section id="colecao" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4 md:px-8 lg:px-16 text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-8">Nossa Coleção de Laços Exclusivos</h2>
+        <h2 className="text-3xl font-bold text-gray-800 mb-16">Nossa Coleção de Laços Exclusivos</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Produto 1 */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
@@ -42,9 +42,9 @@ export default function CollectionSection() {
             </div>
           </div>
         </div>
-        <Link href="#" className="inline-block mt-8 text-bruneka-pink hover:text-bruneka-pink-dark font-semibold">
-          Ver todos os laços da coleção
-        </Link>
+        <Link href="#" className="inline-block bg-bruneka-pink mt-16 hover:bg-bruneka-pink-dark text-white font-semibold py-2 px-4 rounded-full transition-colors duration-300">
+  Ver todos os laços da coleção
+</Link>
       </div>
     </section>
   );

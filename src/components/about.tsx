@@ -19,9 +19,10 @@ export default function AboutSection() {
             />
           </div>
           <div>
+          <p className="text-xl text-gray-700 font-semibold mb-4">Bruna Laços nasceu de uma necessidade e se tornou paixão!</p>
             <p className="text-gray-700 mb-4">Bruneka Laços nasceu da paixão por criar peças únicas e encantadoras. Cada laço é feito à mão com materiais de alta qualidade e um toque especial de carinho.</p>
             <p className="text-gray-700 mb-4">Nosso objetivo é oferecer laços que não apenas complementem o visual, mas também celebrem momentos especiais e transmitam alegria.</p>
-            <Link href="#" className="text-bruneka-pink hover:text-bruneka-pink-dark font-semibold">
+            <Link href="#" className="inline-block bg-bruneka-pink hover:bg-bruneka-pink-dark text-white font-bold py-3 px-8 rounded-full transition-colors duration-300">
               Saiba mais sobre nossa história
             </Link>
           </div>

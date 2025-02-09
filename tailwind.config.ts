@@ -12,7 +12,8 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         'bruneka-pink': '#F472B6', // Cor personalizada Bruneka Pink
-        'bruneka-light-pink': '#FCE4EC', // Cor personalizada Bruneka Light Pink
+        'bruneka-light-pink': '#FCE4EC',
+        'bruneka-pink-dark': '#D946AB', // Cor personalizada Bruneka Light Pink
       },
       fontFamily: {
         'sans': ['"Nunito Sans"', 'sans-serif'], // Fonte sans-serif personalizada
