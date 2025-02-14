@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { NextPage } from 'next'; // Import NextPage type for type safety
 import Link from "next/link";
 
