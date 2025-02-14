@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Logo from '../../public/logo.jpg'
+import Logo from '../../public/logo.png'
 
 export default function Header() {
   return (
@@ -9,9 +9,9 @@ export default function Header() {
         {/* Logo */}
         <div className="flex-shrink-0">
   <Link href="/" aria-label="Bruneka Laços Home">
-    <p className="text-xl md:text-3xl font-serif font-bold text-gray-800 tracking-tight">
-      Bruneka Laços
-    </p>
+    
+      <Image src={Logo} alt="Bruneka Laços" width={90} height={90} />
+    
   </Link>
 </div>
         {/* Navigation (Optional for a simple landing page, but included for potential expansion) */}
